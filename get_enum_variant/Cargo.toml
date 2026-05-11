@@ -1,0 +1,11 @@
+[package]
+name = "get_enum_variant"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+syn = "2.0"
+rand = "0.10.1"
+get_enum_variant_trait = { path = "../get_enum_variant_trait" }
+[lib]
+proc-macro = true

@@ -1,0 +1,12 @@
+[package]
+name = "stargazer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+get_enum_variant = { version = "0.1.0", path = "get_enum_variant" }
+get_enum_variant_trait = { path = "get_enum_variant_trait" }
+rand = "0.10.1"
+ratatui = "0.30.0"
+color-eyre = "0.6.5"
+crossterm = "0.29.0"
