@@ -9,7 +9,7 @@ pub struct Star {
     pub(crate) width: u16,
     pub(crate) height: u16,
     magnitude: u8,
-    pub spectral_type: SpectralType,
+    pub(crate) spectral_type: SpectralType,
 }
 
 impl Display for Star {
